@@ -1,0 +1,1 @@
+Projekt Web API stworzony w ASP.NET Core w ramach zajęć z SDA.
