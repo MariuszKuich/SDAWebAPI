@@ -9,7 +9,6 @@ namespace ProductsService.Models
 {
     public class AddOrderModel
     {
-        public static int ID = 3;
         [Required(ErrorMessage = "Order: Field ClientID is required")]
         public int ClientID { get; set; }
         [Required(ErrorMessage = "Order: Field ProductsIDs is required")]

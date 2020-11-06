@@ -91,8 +91,8 @@ namespace ProductsService.Controllers
         {
             OrderModel addedOrder = new OrderModel()
             {
-                ID = ++AddOrderModel.ID,
-                Client = _clientsList.First(x => x.ID == order.ClientID),
+                ID = _ordersList.Max(x => x.ID) + 1,
+                Client = _clientsList.Single(x => x.ID == order.ClientID),
                 PurchasedProductsList = _productsList.Where(x => order.PurchasedProductsIDs.Contains(x.ID)).ToList(),
                 OrderPrice = 0.0m
             };

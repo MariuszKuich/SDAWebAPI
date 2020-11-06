@@ -27,7 +27,7 @@ namespace ProductsService.Controllers
         {
             ProductModel addedProduct = new ProductModel()
             {
-                ID = ++AddProductModel.ID,
+                ID = _productsList.Max(x => x.ID) + 1,
                 Name = product.Name,
                 Price = product.Price,
                 Color = product.Color,

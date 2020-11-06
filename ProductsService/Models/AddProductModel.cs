@@ -8,8 +8,6 @@ namespace ProductsService.Models
 {
     public class AddProductModel
     {
-        public static int ID = 6;
-
         [Required(ErrorMessage = "Product: Field Name is required")]
         public string Name { get; set; }
         [Required]
