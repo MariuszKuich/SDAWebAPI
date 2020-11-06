@@ -1,9 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using ProductsService.Helpers;
 using ProductsService.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace ProductsService.Controllers
@@ -97,7 +103,28 @@ namespace ProductsService.Controllers
 
         private static void CalculateFinalOrderPrice(OrderModel order)
         {
-            order.OrderPrice = 2.0m;
+            string url = "https://localhost:44341/api/price/calculate";
+            string json = JsonConvert.SerializeObject(order.PurchasedProductsList);
+            StringContent data = new StringContent(json, Encoding.UTF8, "application/json");
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = client.PostAsync(url, data).GetAwaiter().GetResult();
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                string calculatedPrice = response.Content.ReadAsStringAsync().Result;
+                try
+                {
+                    decimal finalPrice = Convert.ToDecimal(calculatedPrice, CultureInfo.InvariantCulture);
+                    order.OrderPrice = finalPrice;
+                }
+                catch
+                {
+                    order.OrderPrice = 0.0m;
+                }
+            }
+            else
+            {
+                order.OrderPrice = 0.0m;
+            }
         }
     }
 }
