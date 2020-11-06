@@ -14,6 +14,7 @@ namespace ProductsService.Helpers
             {
                 new ProductModel()
                 {
+                    ID = 1,
                     Name = "Michelin Tyre",
                     Price = 450.0m,
                     Color = "Black",
@@ -21,6 +22,7 @@ namespace ProductsService.Helpers
                 },
                 new ProductModel()
                 {
+                    ID = 2,
                     Name = "Lego Bricks",
                     Price = 110.0m,
                     Color = "Yellow",
@@ -28,6 +30,7 @@ namespace ProductsService.Helpers
                 },
                 new ProductModel()
                 {
+                    ID = 3,
                     Name = "ANZIO Steel Rim",
                     Price = 270.0m,
                     Color = "Silver",
@@ -35,6 +38,7 @@ namespace ProductsService.Helpers
                 },
                 new ProductModel()
                 {
+                    ID = 4,
                     Name = "Samsung TV",
                     Price = 1400.0m,
                     Color = "Gray",
@@ -42,6 +46,7 @@ namespace ProductsService.Helpers
                 },
                 new ProductModel()
                 {
+                    ID = 5,
                     Name = "Tea Cup",
                     Price = 15.0m,
                     Color = "Blue",
@@ -49,10 +54,54 @@ namespace ProductsService.Helpers
                 },
                 new ProductModel()
                 {
+                    ID = 6,
                     Name = "Novox Microphone",
                     Price = 200.0m,
                     Color = "Green",
                     IBAN = "FI1410093000123458"
+                }
+            };
+        }
+
+        public static List<ClientModel> MockClientsList()
+        {
+            return new List<ClientModel>()
+            {
+                new ClientModel()
+                {
+                    ID = 1,
+                    Name = "Jan Kowalski",
+                    Address = new AddressModel()
+                    {
+                        City = "Bydgoszcz",
+                        PostCode = "85-435",
+                        StreetName = "Wielorybia"
+                    },
+                    NIP = "104392593"
+                },
+                new ClientModel()
+                {
+                    ID = 2,
+                    Name = "Adam Nowak",
+                    Address = new AddressModel()
+                    {
+                        City = "Gdańsk",
+                        PostCode = "33-465",
+                        StreetName = "Morska"
+                    },
+                    NIP = "782539912"
+                },
+                new ClientModel()
+                {
+                    ID = 3,
+                    Name = "Piotr Adamczyk",
+                    Address = new AddressModel()
+                    {
+                        City = "Wrocław",
+                        PostCode = "75-174",
+                        StreetName = "Górska"
+                    },
+                    NIP = "835184092"
                 }
             };
         }

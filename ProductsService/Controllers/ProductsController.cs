@@ -27,6 +27,7 @@ namespace ProductsService.Controllers
         {
             ProductModel addedProduct = new ProductModel()
             {
+                ID = ++AddProductModel.ID,
                 Name = product.Name,
                 Price = product.Price,
                 Color = product.Color,
