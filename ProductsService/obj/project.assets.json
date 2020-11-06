@@ -4532,9 +4532,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsService.csproj",
-      "projectName": "ProductsService",
-      "projectPath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsService.csproj",
+      "projectUniqueName": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj",
+      "projectName": "ProductsOrdersService",
+      "projectPath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj",
       "packagesPath": "C:\\Users\\Operator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\obj\\",
       "projectStyle": "PackageReference",

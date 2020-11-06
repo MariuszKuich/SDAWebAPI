@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AFd8UzI0FSTtWgZzbFs6+J1JWICn2OjsadoGf1p7pjRuLAwtlIaNYtpF61qfJBYYvyXYW4CB2m/ue8OC94Kn4w==",
+  "dgSpecHash": "EVDS12Sm8hhUZvWZAhRjhRjJ7G1Z1vYCSoN7oF1jdrrk+gwJ/kss93quiyzzYPZxYY8IgSVn1iCOXpmyr+7l5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsService.csproj",
+  "projectFilePath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Operator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Operator\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
