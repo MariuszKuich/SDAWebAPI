@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProductsService.Helpers;
 using ProductsService.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace ProductsService.Controllers
 {
@@ -16,6 +15,7 @@ namespace ProductsService.Controllers
 
         [HttpGet]
         [Route("list")]
+        [Authorize]
         public IEnumerable<ProductModel> GetAllProducts()
         {
             return _productsList;

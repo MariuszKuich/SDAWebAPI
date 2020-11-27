@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj": {}
+    "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\ProductsService\\ProductsOrdersService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj": {
+    "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\ProductsService\\ProductsOrdersService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj",
+        "projectUniqueName": "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\ProductsService\\ProductsOrdersService.csproj",
         "projectName": "ProductsOrdersService",
-        "projectPath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\ProductsOrdersService.csproj",
-        "packagesPath": "C:\\Users\\Operator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Operator\\Desktop\\SDAService\\ProductsService\\obj\\",
+        "projectPath": "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\ProductsService\\ProductsOrdersService.csproj",
+        "packagesPath": "C:\\Users\\Szkolenie_09\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\ProductsService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Operator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Szkolenie_09\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -42,6 +42,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"

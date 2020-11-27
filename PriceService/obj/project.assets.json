@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Operator\\.nuget\\packages\\": {},
+    "C:\\Users\\Szkolenie_09\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Operator\\Desktop\\SDAService\\PriceService\\PriceService.csproj",
+      "projectUniqueName": "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\PriceService\\PriceService.csproj",
       "projectName": "PriceService",
-      "projectPath": "C:\\Users\\Operator\\Desktop\\SDAService\\PriceService\\PriceService.csproj",
-      "packagesPath": "C:\\Users\\Operator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Operator\\Desktop\\SDAService\\PriceService\\obj\\",
+      "projectPath": "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\PriceService\\PriceService.csproj",
+      "packagesPath": "C:\\Users\\Szkolenie_09\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Szkolenie_09\\Desktop\\SDAWebAPI\\PriceService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Operator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Szkolenie_09\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
